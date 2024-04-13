@@ -2,6 +2,8 @@
 # Makefile of tic_tac_toe
 # 
 # Written by Gustavo Bacagine in April 2024
+#
+# This program is based in the program tic tac toe of the book "C Completo e Total"; 1991; pages 117-119
 # 
 
 tic_tac_toe: tic_tac_toe.o
