@@ -12,9 +12,9 @@ tic_tac_toe.c:
 	gcc -c tic_tac_toe.c -o tic_tac_toe.o
 
 clean:
-	rm tic_tac_toe.o
+	rm -f tic_tac_toe.o
 distclean: clean
-	rm tic_tac_toe
+	rm -f tic_tac_toe
 
 .PHONY: clean distclean
 
